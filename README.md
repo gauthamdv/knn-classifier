@@ -11,6 +11,8 @@ Key features include:
 * Accuracy evaluation
 * Confusion matrix visualization
 * Decision boundary visualization
+* **Cross-validation** analysis including normal and weighted KNN models
+* Comparison of results to identify the best-performing model
 
 ---
 
@@ -47,6 +49,12 @@ Open `knn-classify.ipynb` to:
 
 * Visualize decision boundaries
 
+* Perform **cross-validation** analysis (normal and weighted)
+
+* Compare results
+
+* Identify the best-performing model based on the analysis (in this case, the regular weighted KNN model)
+
 * **Data:** `datasets/`
 
 * **Models saved in:** `models/`
@@ -74,7 +82,9 @@ knn-classifier/
 ## 📊 Models & Evaluation
 
 * **KNN Classifier:** Trained with multiple K values to find the optimal K.
-* **Evaluation:** Uses accuracy metrics and confusion matrices.
+* **Cross-Validation:** Evaluates normal and weighted KNN models and compares performance.
+* **Best Model Selection:** After analyzing the comparison, the regular weighted KNN model was chosen as the best-performing model.
+* **Evaluation Metrics:** Uses accuracy and confusion matrices.
 * **Visualization:** Decision boundaries plotted for better understanding of model performance.
 
 ---
@@ -82,8 +92,9 @@ knn-classifier/
 ## ⚡ Usage
 
 1. Prepare the data using `data-preprocessing.py`.
-2. Open and run `knn-classify.ipynb` to train and evaluate KNN models.
-3. Check saved plots and models in their respective folders.
+2. Open and run `knn-classify.ipynb` to train, evaluate, and cross-validate KNN models.
+3. Compare results and select the best-performing model.
+4. Check saved plots and models in their respective folders.
 
 ---
 
@@ -92,13 +103,3 @@ knn-classifier/
 Contributions are welcome! Feel free to open a pull request or report issues.
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 😊 Author
-
-**Gautham DV**
